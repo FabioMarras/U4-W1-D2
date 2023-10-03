@@ -9,6 +9,8 @@ public class Esercizio3 {
         while (!uno.equals(":q")) {
             System.out.println("Per finire scrivi :q");
             uno = input.nextLine();
+            String[] arrSTR= uno.split("");
+            System.out.println(String.join(",", arrSTR));
         }
             input.close();
     }
